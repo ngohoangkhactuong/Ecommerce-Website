@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/decorators">
+	<!-- ngoai tru -->
+	<excludes>
+		<pattern>/api*</pattern>
+		<pattern>/login*</pattern>
+		<pattern>/register*</pattern>
+		<pattern>/funds*</pattern>
+		<pattern>/wellcome*</pattern>
+	</excludes>
+	<!-- apply Sitemesh default template -->
+
+	<decorator name="web" page="web.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
